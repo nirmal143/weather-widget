@@ -1,0 +1,50 @@
+.weather-widget {
+	width: 400px;
+	height: 250px;
+	left: 50%;
+	top: 50%;
+	border-radius: 10px;
+}
+
+.weather-icon {
+	display: block;
+	margin: 0 auto;
+}
+
+#location {
+	text-align: center;
+	font-size: 26px;
+	/*color: skyblue;*/
+}
+
+#temperature {
+	font-weight: bold;
+	font-size: 42px;
+	text-align: center;
+	color: skyblue;
+	cursor: pointer;
+}
+
+#summary {
+	text-align: center;
+	/*color: skyblue;*/
+	font-size: 23px;
+}
+
+.content {
+	position: relative;
+	top: 50%;
+	margin-top: -143px;
+}
+
+.profile-copyright {
+	text-align: center;
+	margin-top: 30px;
+	font-size: 12px;
+	color: #222;
+}
+
+.profile-heart {
+	height: 13px;
+	width: 13px;
+}
